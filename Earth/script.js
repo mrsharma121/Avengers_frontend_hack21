@@ -29,7 +29,7 @@ function initialize() {
     }
   );
   document.querySelector("#egypt").addEventListener("click", function () {
-    window.open("../cities/egypt/egypt.html", "_blank");
+    window.open("../cities/Egypt/Egypt.html", "_blank");
   });
 
   var hongkong = WE.marker([22.396428, 114.109497]).addTo(earth);
@@ -41,7 +41,7 @@ function initialize() {
     }
   );
   document.querySelector("#hongkong").addEventListener("click", function () {
-    window.open("../cities/hongkong/hongkong.html", "_blank");
+    window.open("../cities/Hongkong/Hongkong.html", "_blank");
   });
 
   var ladakh = WE.marker([34.0, 78.0]).addTo(earth);
@@ -77,7 +77,7 @@ function initialize() {
     }
   );
   document.querySelector("#newYork").addEventListener("click", function () {
-    window.open("../cities/newYork/newYork.html", "_blank");
+    window.open("../cities/newYork/newyork.html", "_blank");
   });
 
   var Paris = WE.marker([48.85341, 2.3488]).addTo(earth);
