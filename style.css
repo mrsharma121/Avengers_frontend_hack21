@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: black;
+  overflow: hidden;
+}
+
+.btn {
+  position: absolute;
+  top: 54%;
+  left: 50%;
+  transform: translate(-50%, 159%);
+  /* top: 55%; */
+  /* left: 44%; */
+  background-color: green;
+  cursor: pointer;
+  color: white;
+  padding: 0.8%;
+  width: 9%;
+  border: 2px solid green;
+  border-radius: 5%;
+  font-size: 1.3vw;
+}
+
+.btn1 {
+  color: white;
+  background-color: green;
+  /* text-shadow: 0 0 0.6rem greenyellow; */
+  border: 2px solid green;
+  margin: 0 auto;
+}
+
+.btn1:hover {
+  background-color: white;
+  color: black;
+}
+
+#typed {
+  color: white;
+  text-align: center;
+  font-size: 1.5vw;
+  /* position: absolute; */
+  position: absolute;
+  top: 50%;
+  left: 19%;
+  /* transform: translate(-50%, 22%); */
+}
+
+/* .typed-cursor {
+  display: inline;
+} */
+
+.landingPage-heading {
+  /* top: 30%; */
+  width: 100vw;
+  /* left: 19%; */
+  color: white;
+  text-shadow: 0 0 0.6rem greenyellow;
+  font-size: 3.4vw;
+  font-weight: 900;
+  position: absolute;
+  /* margin-bottom: -2px; */
+  top: 50%;
+  left: 65%;
+  transform: translate(-50%, -96%);
+}
+
+.landing-page {
+  display: flex;
+}
+
+canvas {
+  height: 2000px;
+}
+
+.typed-cursor {
+  display: none;
+}

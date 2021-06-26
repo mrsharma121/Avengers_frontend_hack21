@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: 99.5%;
+  background-color: black;
+}
+#bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+#earth_div {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute !important;
+  /* color: blueviolet; */
+}
+.marker-div {
+  display: flex;
+  flex-direction: column;
+}
+.marker-button {
+  background-color: crimson;
+  border: 2px solid crimson;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 0 auto;
+  text-align: center;
+}
+.marker-button:hover {
+  background-color: white;
+  color: #000;
+  cursor: pointer;
+}
+.marker-location {
+  font-size: 15px;
+  text-align: center;
+}
