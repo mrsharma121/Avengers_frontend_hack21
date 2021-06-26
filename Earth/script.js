@@ -89,7 +89,7 @@ function initialize() {
     }
   );
   document.querySelector("#Paris").addEventListener("click", function () {
-    window.open("../cities/Paris/Paris.html", "_blank");
+    window.open("../cities/Paris/paris.html", "_blank");
   });
 
   var rio = WE.marker([-22.90642, -43.18223]).addTo(earth);
