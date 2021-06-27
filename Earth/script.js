@@ -41,7 +41,7 @@ function initialize() {
     }
   );
   document.querySelector("#hongkong").addEventListener("click", function () {
-    window.open("../cities/Hongkong/Hongkong.html", "_blank");
+    window.open("../cities/Hongkong/HongKong.html", "_blank");
   });
 
   var ladakh = WE.marker([34.0, 78.0]).addTo(earth);
